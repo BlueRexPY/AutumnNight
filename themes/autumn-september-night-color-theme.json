@@ -184,6 +184,8 @@
 		"titleBar.inactiveBackground": "#1a1a1a",
 		"titleBar.inactiveForeground": "#848484",
 		"widget.shadow": "#0000005e",
+		"editorInlayHint.background": "#191919",
+		"editorInlayHint.foreground": "#889469"
 	},
 	"tokenColors": [
 		{
@@ -470,6 +472,7 @@
 		},
 		{
 			"scope": [
+				"keyword.operator.class",
 				"keyword.operator.new",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
@@ -478,6 +481,7 @@
 				"keyword.operator.logical.python"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#66dc9f"
 			}
 		},
@@ -536,9 +540,17 @@
 		},
 		{
 			"scope": [
-				"meta.return-type",
 				"support.class",
 				"support.type",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#cbe793"
+			}
+		},
+		{
+			"scope": [
+				"meta.return-type",
 				"entity.name.type",
 				"entity.name.class",
 				"storage.type.numeric.go",
@@ -568,6 +580,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
+				"fontStyle": "underline",
 				"foreground": "#cbe793"
 			}
 		},
@@ -578,9 +591,17 @@
 				"support.constant.math",
 				"support.constant.dom",
 				"support.constant.json",
+			],
+			"settings": {
+				"foreground": "#86c5b5"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.inherited-class"
 			],
 			"settings": {
+				"fontStyle": "italic underline",
 				"foreground": "#86c5b5"
 			}
 		},
@@ -720,6 +741,7 @@
 		{
 			"scope": "storage.type",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#db9d63"
 			}
 		},
@@ -750,6 +772,7 @@
 		{
 			"scope": "entity.other.attribute-name.html, entity.name.tag.html, entity.other.attribute-name.jsx, entity.name.tag.localname.xml, support.type.property-name.css, support.type.vendored.property-name.css, meta.object-literal.key.ts, entity.other.attribute-name.css, meta.object-literal.key.js, entity.other.attribute-name.js.jsx, variable.other.object.js, variable.other.object.property.js",
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#9DCCC0"
 			}
 		},
@@ -762,7 +785,14 @@
 		{
 			"scope": "support.type.property-name.media.css, support.type.property-name.json.comments, support.type.property-name.json, variable.other.property.js, variable.parameter.js, variable.parameter.graphql, variable.other.readwrite.js, variable.graphql",
 			"settings": {
-				"foreground": "#E6E6E6"
+				"foreground": "#E6E6E6",
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "italic",
 			}
 		},
 		{
@@ -780,6 +810,7 @@
 		{
 			"scope": "entity.name.type.class.python, entity.other.inherited-class.python",
 			"settings": {
+				"fontStyle": "italic underline",
 				"foreground": "#87d3d4"
 			}
 		},

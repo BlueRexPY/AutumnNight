@@ -2,7 +2,7 @@
   "name": "autumn-night-color-theme",
   "displayName": "Autumn Night",
   "description": "🥃 Smoked Maple Syrup, Oak Barrel Extract, Charred Cinnamon Dust, Dark Cherry Nectar, a Splash of Aged Bourbon, and a Garnish of Orange Peel, Clove, and a Smoked Cinnamon Stick. Cheers!",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.83.0"
   },
